@@ -1,0 +1,87 @@
+=========================================================
+|    BASIC COMMANDS FOR PYTHON + DJANGO CONFIGURATION   |
+=========================================================
+
+1) install virtual environment using pip
+
+> pip install virtualenv
+
+2) init the virtual environment
+
+> python -m venv django_env
+
+3) activate the virtual environment
+
+position of folder: 
+D:\_MASTER DEGREE - AI POLYTECH\WebDevProjects\Sys_Django_v1.0
+
+command: 
+> .\django_env\scripts\activate
+
+4) install django in virtual environment
+
+> pip install django
+
+5) create the project
+
+> django-admin startproject sales_store
+
+6) create a application inside of the project
+
+> cd sales_store
+
+> python manage.py startapp appSales
+
+7) run the application 
+
+> python manage.py runserver
+
+8) make migrate for databases
+
+> python manage.py migrate
+
+9) create super user
+
+> python manage.py createsuperuser
+
+10) install Pillow
+
+> pip install Pillow
+
+11) adding appSales
+
+# Application definition
+
+In file settings.py, add appSales to settings.py
+
+INSTALLED_APPS = [
+    "django.contrib.admin",
+    "django.contrib.auth",
+    "django.contrib.contenttypes",
+    "django.contrib.sessions",
+    "django.contrib.messages",
+    "django.contrib.staticfiles",
+    "appSales",
+]
+
+12) for update all models in database
+    Each time when you want migrate python classes to 
+    database tables, run this next 2 commands:
+
+> python manage.py makemigrations
+    - Create model Category
+
+> python manage.py migrate
+
+13) tricks for quickly write multiple tags
+
+li*5 + enter
+
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+
+ctrl + alt + up/down key ==> to write multiple times the same repeated code
+
