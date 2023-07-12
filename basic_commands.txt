@@ -85,9 +85,20 @@ li*5 + enter
 
 ctrl + alt + up/down key ==> to write multiple times the same repeated code
 
-14) commands to upload 
+14) commands to upload project from local to github repository
 
-hfsafhskajdlajdasjaskl
+HP@DESKTOP-HAT96CV MINGW64 ~ (master)
+$ cd D:
+$ cd "_MASTER DEGREE - AI POLYTECH"/WebDevProjects/Sys_Django_v1.0
+
+HP@DESKTOP-HAT96CV MINGW64 /d/_MASTER DEGREE - AI POLYTECH/WebDevProjects/Sys_Django_v1.0 (master)
+$ git init
+$ git remote add origin https://github.com/HoltechHard/sys_sales_django.git
+$ git remote -v 
+$ git add .
+$ git commit -m "upload system in python + django"
+$ git push origin master
+
 
 15) commands to update files from local to github repository
 
