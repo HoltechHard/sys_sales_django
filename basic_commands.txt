@@ -85,3 +85,5 @@ li*5 + enter
 
 ctrl + alt + up/down key ==> to write multiple times the same repeated code
 
+hfsafhskajdlajdasjaskl
+
